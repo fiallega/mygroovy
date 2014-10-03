@@ -3,6 +3,9 @@ apply plugin: 'groovy'
 
 repositories {
     mavenCentral()
+    maven {
+	url "http://maven.restlet.org"
+    }
 }
 
 dependencies {
